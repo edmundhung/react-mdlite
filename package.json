@@ -1,0 +1,42 @@
+{
+  "name": "react-mdlite",
+  "version": "0.0.1",
+  "description": "React wrappers for Material Design Lite (MDL) components",
+  "main": "modules/index.js",
+  "directories": {
+    "lib": "src"
+  },
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EdStudio/react-mdlite.git"
+  },
+  "keywords": [
+    "React",
+    "Material Design",
+    "Material Design Lite",
+    "MDL"
+  ],
+  "author": {
+    "name": "Edmund Hung",
+    "email": "edmund@edstud.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdStudio/react-mdlite/issues"
+  },
+  "homepage": "https://github.com/EdStudio/react-mdlite",
+  "peerDependencies": {
+    "react": ">=0.13"
+  },
+  "devDependencies": {
+    "babel": "^5.6.23",
+    "babel-core": "^5.7.4",
+    "babel-loader": "^5.3.2",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.1"
+  }
+}
